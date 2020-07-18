@@ -49,9 +49,14 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "src/styles.css",
+              "node_modules/toastr/build/toastr.min.css",
+              "node_modules/bootstrap/dist/css/bootstrap.min.css",
             ],
-            "scripts": []
+            "scripts": [
+              "node_modules/jquery/dist/jquery.min.js/",
+              "node_modules/bootstrap/dist/js/bootstrap.min.js/"
+              ]
           },
           "configurations": {
             "production": {
@@ -144,6 +149,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "endereco"
+    }
+  },
+  "defaultProject": "endereco",
+  "cli": {
+    "analytics": "c03f6de9-4e50-49a4-b477-4e6dd329ddb4"
+  }
 }
