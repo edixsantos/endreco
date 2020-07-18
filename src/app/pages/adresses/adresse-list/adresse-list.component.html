@@ -1,1 +1,40 @@
-<p>adresse-list works!</p>
+  <nav class="md-3">
+    <ol class="breadcrumb">
+      <li class="breadcrumb-item"><a routerLink="/">Home</a></li>
+      <li class="breadcrumb-item active">Enderecos</li>
+    </ol>
+  </nav>`
+  <div class="row">
+    <div class="col-md">    
+     <h1 class="h2 border-left pl-2">
+       Endereco  
+     </h1>
+    </div>
+  <div class="col-md">   
+   <a routerLink="new" class="btn btn-success float-right">
+      + Novo Endereco
+   </a>   
+  </div>
+  </div>
+  <table class="table table-hover">
+    <thead>
+      <tr class="bg-primary text-light">
+        <th>Endereco</th>
+        <th>Ações</th>
+      </tr>
+    </thead>
+    <tbody>
+        <tr>
+      <!--tr *ngFor="let Enderecos of resources"
+        <tr></tr-->  
+        <td>
+          <!--strong>"{{endreco.name}}"</strong><br>
+          <small>"{{endreco.description}}"</small-->
+        </td>
+        <td>
+          <!--a [routerLink]="[category.id, 'edit']" class="btn btn-outline-info btn-sm mr-2">Editar</-->
+          <!--button (click)="deleteResource(category)" class="btn btn-outline-danger btn-sm">Excluir</button-->
+        </td>
+      </tr>
+    </tbody>
+  </table>
